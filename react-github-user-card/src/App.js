@@ -1,22 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Myself from './components/Myself';
 import './App.css';
+import Followers from './components/Followers';
 
-class App extends Component {
-  constructor() {
-    // initializes state, and does any explicit bindings
-    super();
-    this.state = {
-      User: {},
-      follwers: []
-    };
-    console.log('Constructor is running!');
-  }
-  render() {
+function App(){
     return (
       <div>
-        <p>working</p>
+      <Myself/>
+      <Followers/>
       </div>
     )
-  }
 }
 export default App;

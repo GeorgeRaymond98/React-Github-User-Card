@@ -16,6 +16,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.followersCard img {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
 
 .App-link {
   color: #09d3ac;
